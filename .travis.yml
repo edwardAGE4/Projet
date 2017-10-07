@@ -1,3 +1,10 @@
 language: ruby
 rvm:
-  - 2.2
+- 2.2
+deploy:
+  provider: heroku
+  api_key:
+    secure: pRFxy87kKKh21oz9exmmbOaARAVpCbTAH0kLvmngTp86VImF1SaXYnWVi1azQjuRzzxUrL1aSS3XlJgxTeVtuNfIw7LqJFMwziBTNl5Gnw8q9yhDd8ZglJtIvh40YFW1qmEX9BtDbpgD5DmxD+WFT2Tmp0cfzfaXAIVs4NiMUCbcCtzqbHENLj37/Sz74uUyhZeO55pWzftwN7Ya8jt7YZYIelie2dg/jyJzwQ9ooTfSD8nm3vYv/lVAd6Kk6b63y29HC4SdsYeP64RtV/mGd10NEDtvmtc9LfzGs9w0IAX2EWKsfZSVR9wIX1vkenVEAn8msqPpw5Kz3sjEBNlk0hmM9D15hHXFk3FgXCZred6s1Dt0AJZyEHSRVdYHka3r91x0282mi4goapDcZvcDRB1879Gxi4oM29Gd0pjZ4fvzjEpUgCRtZxgmlPFfoifUgW3+JAkHXaDBwBwH3ccjHpEy63OidrZ4XXurkrbELX35OZYVojzwffo5oM/eT1Ydaj8V/ASPGroBZTlzb8S7IFFbxiLPEvookvbrgrdHQHe4sBBa6hF6/bfN6Y7CzlkJkpJj8W97PbPVkcQJXB8/Nwh9UV5wvspuUbnYiKqclGzhTsV0v/1egVESSeNu1UDKYN5M/SQR07kLgw8meSVlGS1C8IE8lSp2SUS1UFhthx4=
+  app: y
+  on:
+    repo: edwardAGE4/projet
