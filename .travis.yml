@@ -1,10 +1,10 @@
 language: ruby
 rvm:
-  - 2.2
+- 2.2
 deploy:
   provider: heroku
   api_key:
-    secure: "8f04df59-fa70-44a4-843c-31d2c0d57de6"
-    app: projet_LPA
-          master: my-app-staging
-         production: my-app-production
+    secure: ww/jZ7857br159DDMzseZ4ekELb8z00lKnyiWhyWLhInIuKG4QyBevqTHscGrz6T3rW/tuUhnVrPkrc6H5AW60Wvy8Co3Z/b1djXlPoD8m4N/sRNhQc/rsuj2LEC9RolU/X913NprU85EKvl8kvV+51XxQlCwd/HrvgZwC1KC91t+mTSuEaI4Nj+RwkVx05HKOjr5DhdOkwvyddJqkFRa3pHTGd9FH+kSXElJuZpK9R1YF/t3JY2f2usLco4fyO2Z9O15ntEELFRspraLwHUIos9hdCtfZQO3Hx5r9fnBb6Ao/PREXIIc1ScgtYXcFvA0svwzmy3BQjFuRAHCD/k3YFhBmpYq7xSKFqFPM2QYxUo4b+aNnvImoHY/lkERwKyK2EQ4viiqMnzaHBS3PuVSmbr5uD1JFfmHG8snRUXvilIhozcTsKb3hUTvTg/y1+Zv61McNBsbqT0oreQr9osvxRUyow07J07sQBzh3s7X6Mf6a6MkLJfv94pvUEy2ncryFGHCn4OwZgJR3W0Mt+LuSVgZu+tCSmlHFhgZSuBihWxAzgw+B/ZPQ4nSe/V80iaKCvZT/Ff/yaWgU4GQbZYxOcVLjswK2gHYUK+veA3Vmsn5gKg05R7nP36iKkYilS3GdykaOqP/cNQIpEHFBlZ+tN2je28aULEcEO4IuxK3A0=
+  app: projetlpa
+  on:
+    repo: edwardAGE4/projet
