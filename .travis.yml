@@ -8,4 +8,4 @@ deploy:
   app: projetlpa
   on:
     repo: edwardAGE4/projet
-    run: "rake db:migrate"
+  run: "rake db:migrate"
