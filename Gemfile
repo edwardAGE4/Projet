@@ -46,3 +46,5 @@ gem 'nominatim', '~> 0.0.6'
 
 # Use forecast
 gem 'forecast_io', '~> 2.0', '>= 2.0.1'
+
+gem 'vcr', '~> 3.0', '>= 3.0.3' , group: [:development, :test]

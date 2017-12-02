@@ -4,8 +4,13 @@ one:
   name: Belfort
   lat: 1.5
   lon: 1.5
-
+  
 two:
   name: Paris
+  lat: 1.5
+  lon: 1.5
+
+inexisting:
+  name: inexistingTown
   lat: 1.5
   lon: 1.5
